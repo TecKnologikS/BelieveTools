@@ -1,0 +1,30 @@
+body {
+  padding: 0px 24px 8px 24px;
+}
+
+h2.title {
+    width: max-content;
+}
+
+div.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button#debug,
+button#refresh {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  font-size: 1.5em;
+}
+
+button#debug {
+  color: #8e24aa;
+  border-color: #8e24aa;
+}
+
+button#refresh {
+  color: #42a5f5;
+  border-color: #42a5f5;
+}
