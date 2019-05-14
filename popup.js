@@ -18,6 +18,7 @@ function getChangedUrl(param) {
 document.addEventListener('DOMContentLoaded', function() {
   var debug = document.getElementById('debug');
   var refresh = document.getElementById('refresh');
+  var error = document.getElementById('error');
 
   debug.addEventListener('click', function() {
     chrome.runtime.sendMessage({ msg: "debug" })
@@ -25,5 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   refresh.addEventListener('click', function() {
     chrome.runtime.sendMessage({ msg: "refresh" })
+  });
+
+  error.addEventListener('click', function() {
+    chrome.runtime.sendMessage({ msg: "error" })
   });
 });

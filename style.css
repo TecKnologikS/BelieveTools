@@ -4,6 +4,9 @@ body {
 
 h2.title {
     width: max-content;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
 }
 
 div.buttons {
@@ -12,6 +15,7 @@ div.buttons {
 }
 
 button#debug,
+button#error,
 button#refresh {
   height: 50px;
   width: 50px;
@@ -27,4 +31,9 @@ button#debug {
 button#refresh {
   color: #42a5f5;
   border-color: #42a5f5;
+}
+
+button#error {
+  color: #f44336;
+  border-color: #f44336;
 }

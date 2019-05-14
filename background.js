@@ -21,6 +21,9 @@ chrome.runtime.onMessage.addListener(
         case 'refresh':
           reload('refreshLanguage');
         break;
+        case 'error':
+          reload('showError');
+        break;
         default:
         break;
       }
