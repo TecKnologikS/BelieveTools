@@ -31,6 +31,8 @@ button#debug {
 button#refresh {
   color: #42a5f5;
   border-color: #42a5f5;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 button#error {
